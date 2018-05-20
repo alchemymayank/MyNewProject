@@ -6,8 +6,41 @@ public class Main extends Models {
         System.out.println("Hello Mayank");
 
 
+        // Selection sort algorithm
+        SelectionSort selectionSort = new SelectionSort();
+        int[] arr = {98,74,47,2,8,64,524,95,847,72};
+        printLn("Array before sorting...");
 
-        
+        for (int i=0; i<arr.length; i++){
+            print(arr[i]+ " ");
+        }
+
+        printLn("\nArray after sorting...");
+        selectionSort.selectionSort(arr);
+
+        for (int i=0; i<arr.length; i++){
+            print(arr[i]+ " ");
+        }
+
+
+
+
+        //Bubble sort algorithm
+//        BubbleSortAlgorithm bubbleSortAlgorithm = new BubbleSortAlgorithm();
+//        int arr[] ={3,60,35,2,45,320,5};
+//
+//        printLn("Array Before Bubble Sort");
+//        for(int i=0; i < arr.length; i++){
+//            System.out.print(arr[i] + " ");
+//        }
+//        printLn("");
+//
+//        bubbleSortAlgorithm.bubbleSortAlgorithm(arr);
+//
+//        printLn("Array After Bubble Sort");
+//        for(int i=0; i < arr.length; i++){
+//            System.out.print(arr[i] + " ");
+//        }
 
         // Check Armstrong Number
 //        ArmstrongNumber armstrongNumber = new ArmstrongNumber();
