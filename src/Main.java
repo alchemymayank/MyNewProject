@@ -16,7 +16,13 @@ public class Main extends Models {
         }
 
         printLn("\nArray after sorting...");
-        selectionSort.selectionSort(arr);
+        selectionSort.selectionSortOnline(arr);
+
+//        selectionSort.selectionSort(arr);
+//
+//        selectionSort.mySort(arr);
+
+
 
         for (int i=0; i<arr.length; i++){
             print(arr[i]+ " ");
